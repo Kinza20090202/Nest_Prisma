@@ -5,8 +5,8 @@
   "scripts": {
     "build": "nest build",
     "start:prod": "node dist/main",
-    "prisma:deploy": "prisma migrate deploy --schema=./src/prisma/schema.prisma",
-    "postinstall": "prisma generate --schema=./src/prisma/schema.prisma",
+    "prisma:deploy": "npx prisma migrate deploy --schema=./src/prisma/schema.prisma",
+    "postinstall": "npx prisma generate --schema=./src/prisma/schema.prisma",
     "prisma:generate": "prisma generate --schema=./src/prisma/schema.prisma",
     "prisma:push": "prisma db push --schema=./src/prisma/schema.prisma",
     "start:dev": "nest start --watch"
