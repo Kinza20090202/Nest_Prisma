@@ -23,6 +23,7 @@
     "noFallthroughCasesInSwitch": false,
     "strictPropertyInitialization": false,
     "useUnknownInCatchVariables": false,
-    "ignoreDeprecations": "5.0"
+    "ignoreDeprecations": "6.0",
+    "rootDir": "./src"
   }
 }
